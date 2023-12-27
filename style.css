@@ -5,6 +5,7 @@ h1{
 }
 h2{
     font-size: 50;
+    color:#6b020d;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 p{
@@ -38,8 +39,8 @@ p{
     background-color: #5fb7fa;
     border-radius: 5px;
     border: none;
-    height: 25px;
-    width:70px;
+    height: 30px;
+    width:75px;
     
 }
 
@@ -61,6 +62,8 @@ p{
 
 }
 .div1{
+    float:left;
+    
     background-color:#ece5ff;
     color: purple;
     font-family: verdana;
@@ -136,5 +139,22 @@ p{
     flex:1;
     text-align: right;
     vertical-align: middle;
+}
+.content{
+    display:flexbox;
+    align-items: center;
+    padding-top: 20px;
+    height:100%;
+}
+
+.lower{   
+    color: grey;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+    font-size: 15px;
+    width: 100%;
+    background-color: papayawhip;
+    
 }
 
